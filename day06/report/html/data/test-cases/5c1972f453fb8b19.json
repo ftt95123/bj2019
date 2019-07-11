@@ -1,0 +1,84 @@
+{
+  "uid" : "5c1972f453fb8b19",
+  "name" : "Test01.test004",
+  "fullName" : "test01.Test01.test004",
+  "historyId" : "1d26ea4a9ee46967fab596a6dd661a71",
+  "time" : {
+    "start" : 1562664722602,
+    "stop" : 1562664722652,
+    "duration" : 50
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test01.Test01 object at 0x03333410>\n\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    def test004(self):\n        # 添加描述\n        allure.attach(\"描述：\",\"\")\n        # 模拟失败，目的：查看图标优先级颜色\n>       assert 0\nE       assert 0\n\nscripts\\test01.py:28: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0",
+    "statusTrace" : "self = <test01.Test01 object at 0x03333410>\n\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    def test004(self):\n        # 添加描述\n        allure.attach(\"描述：\",\"\")\n        # 模拟失败，目的：查看图标优先级颜色\n>       assert 0\nE       assert 0\n\nscripts\\test01.py:28: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69dd94fe82020fcf",
+      "name" : "描述：",
+      "source" : "69dd94fe82020fcf.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "MS-20180906QJYH"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "7116-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test01"
+  }, {
+    "name" : "testClass",
+    "value" : "test01"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test004"
+  }, {
+    "name" : "package",
+    "value" : "test01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5c1972f453fb8b19.json",
+  "parameterValues" : [ ]
+}
